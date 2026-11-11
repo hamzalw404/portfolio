@@ -1,8 +1,13 @@
+import { IconDownload } from './Icons';
+
 export default function Hero() {
   return (
     <section className="hero-section" id="hero">
       <div className="container hero-container">
-        <div className="hero-badge">Available for opportunities</div>
+        <div className="hero-badge">
+          <span className="status-dot"></span>
+          Available for opportunities
+        </div>
         <h1 className="hero-title">
           Hi, I&apos;m <span className="highlight">Hamza Lawayeb</span>
         </h1>
@@ -14,7 +19,8 @@ export default function Hero() {
             View Projects
           </a>
           <a href="/resume.pdf" download className="btn btn-secondary">
-            Download CV
+            <IconDownload size={16} />
+            <span>Download CV</span>
           </a>
         </div>
       </div>

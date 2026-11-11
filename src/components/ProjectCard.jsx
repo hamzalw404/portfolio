@@ -1,3 +1,5 @@
+import { IconGithub, IconExternal } from './Icons';
+
 export default function ProjectCard({ project }) {
   const { title, subtitle, description, problem, solution, tags, liveDemo, github, highlights, featured } =
     project;
@@ -17,10 +19,12 @@ export default function ProjectCard({ project }) {
       {problem && solution && (
         <div className="project-case">
           <div className="case-item">
-            <strong>The Problem:</strong> {problem}
+            <strong>The Problem</strong>
+            <p>{problem}</p>
           </div>
           <div className="case-item">
-            <strong>The Solution:</strong> {solution}
+            <strong>The Solution</strong>
+            <p>{solution}</p>
           </div>
         </div>
       )}
@@ -49,7 +53,8 @@ export default function ProjectCard({ project }) {
             rel="noopener noreferrer"
             className="btn btn-sm btn-primary"
           >
-            Live Demo →
+            <span>Live Demo</span>
+            <IconExternal size={14} />
           </a>
         )}
         {github && (
@@ -59,7 +64,8 @@ export default function ProjectCard({ project }) {
             rel="noopener noreferrer"
             className="btn btn-sm btn-outline"
           >
-            GitHub Repo
+            <IconGithub size={14} />
+            <span>GitHub</span>
           </a>
         )}
       </div>
