@@ -10,8 +10,8 @@ export const projects = [
     solution:
       'Engineered an automated web client with real-time audio streaming, speech-to-text processing, and semantic summarization.',
     tags: ['React', 'Node.js', 'WebSockets', 'Web Speech API', 'OpenAI'],
-    liveDemo: 'https://example.com',
-    github: 'https://github.com/hamzalawayeb/neeting',
+    liveDemo: 'https://my-frontend-r5ap.onrender.com',
+    github: 'https://github.com/hamzalw404/PFE-2025.git',
     highlights: [
       'Voice-command triggered action items',
       'Real-time transcription and speaker diarization',
