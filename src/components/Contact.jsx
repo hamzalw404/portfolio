@@ -62,7 +62,7 @@ export default function Contact() {
                 <IconGithub className="contact-icon" />
                 <div>
                   <span className="contact-label">GitHub</span>
-                  <span className="contact-value">github.com/hamzalawayeb</span>
+                  <span className="contact-value">github.com/hamzalw404</span>
                 </div>
               </div>
               <span className="pill-arrow">↗</span>
