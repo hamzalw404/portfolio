@@ -53,7 +53,7 @@ export default function Contact() {
             </div>
 
             <a
-              href="https://github.com/hamzalawayeb"
+              href="https://github.com/hamzalw404"
               className="contact-pill"
               target="_blank"
               rel="noopener noreferrer"
