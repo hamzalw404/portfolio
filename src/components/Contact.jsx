@@ -62,14 +62,14 @@ export default function Contact() {
                 <IconGithub className="contact-icon" />
                 <div>
                   <span className="contact-label">GitHub</span>
-                  <span className="contact-value">github.com/hamzalw404</span>
+                  <span className="contact-value">hamzalw404</span>
                 </div>
               </div>
               <span className="pill-arrow">↗</span>
             </a>
 
             <a
-              href="https://linkedin.com/in/hamzalawayeb"
+              href="https://www.linkedin.com/in/hamza-lawayeb-a59750221/"
               className="contact-pill"
               target="_blank"
               rel="noopener noreferrer"
@@ -78,7 +78,7 @@ export default function Contact() {
                 <IconLinkedin className="contact-icon" />
                 <div>
                   <span className="contact-label">LinkedIn</span>
-                  <span className="contact-value">linkedin.com/in/hamzalawayeb</span>
+                  <span className="contact-value">HamzaLawayeb</span>
                 </div>
               </div>
               <span className="pill-arrow">↗</span>
