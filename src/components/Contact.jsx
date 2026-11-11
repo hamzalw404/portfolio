@@ -94,7 +94,7 @@ export default function Contact() {
         </div>
 
         <footer className="footer">
-          <p>© {new Date().getFullYear()} Hamza Lawayeb. Built with React & Vite.</p>
+          <p>© {new Date().getFullYear()} Hamza Lawayeb.</p>
         </footer>
       </div>
     </section>
